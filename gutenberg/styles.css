@@ -1,0 +1,57 @@
+body{
+    background-color: #DEB571;
+    font-family: serif;
+    margin: 5% 20% 20% 20% ;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.author{
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
+
+
+
+h2{
+    font-style: italic;
+    text-align: center;
+}
+
+h3,h4,h5,h6,h7{
+    font-weight: bold;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 2ex;
+    margin-top: 1ex;
+}
+
+img{
+    
+    margin: 0 auto;
+}
+
+
+.fig{
+    display:block;
+    margin:0 auto;
+    text-align:center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    max-width: 25%;
+}
