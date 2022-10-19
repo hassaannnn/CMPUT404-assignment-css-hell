@@ -1,0 +1,15 @@
+body{
+    /* background-color: #F6F6F2; */
+    height: 90vh;
+    background-image: url(./assets/dog.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+}
+
+.about-me{
+    background-image: url(./assets/pat.jpg);
+    max-width: 75vw
+}

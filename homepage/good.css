@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto Slab', serif;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 9fr 1fr;
+}
+
+.wood-bar{
+    /* background-image: url('./assets/wood.jpg'); */
+    background-color: #1E2124;
+    
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #424549;
+}
+
+.title h1{
+    color: #7289DA;
+    font-size: 4em;
+}
+
+.title p{
+    font-size: 1.5em;
+}
+
+.nav-bar{
+    background-color: #36393E;
+    color: #7289DA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar ul{
+    max-width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+span.navbar {
+    margin-left: ;
+}
+
+.current-tab{
+    color: #7289DA;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+a{
+    color: #7289DA;
+    text-decoration: none;
+
+}
+
+.main-content{
+    background-color: #95A5B0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.footer{
+    background-color: #1E2124;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me{
+    display: grid;
+    grid-template-columns: 1fr 5fr ;
+    align-items: center;
+    
+}
+
+.about-me img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #424549;
+
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.history{
+    display: grid;
+    grid-template-columns: 5fr 1fr ;
+    align-items: center;
+    
+}
+
+#sk{
+    width: 150px;
+    height: 150px;
+
+}
+
+.history{
+    list-style-type:circle;
+    margin-left: 10px;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: 1fr  5fr;
+    align-items: center;
+}
+
+.experience img{
+    width: 150px;
+    height: 150px;
+   
+
+    margin: 10px;
+}
+.sidebar a{
+    font-size: 1.2rem;;
+}
+
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+ a {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #7289DA;
+  }
+  
+  a:visited {
+    color: #7289DA;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #bae498;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #BADFE7;
+  }
+  
+  a:active {
+    background: #265301;
+    color: #388087;
+  }
